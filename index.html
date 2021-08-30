@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Buy cool new product</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <section>
+      <div class="product">
+        
+        <div class="description">
+          <h3>Stubborn Attachments</h3>
+        </div>
+    </div>
+    <form action="http://localhost/stripe_payment/create-checkout-session.php" method="POST">
+        <input type="text" name="amount" />
+        <button type="submit">Checkout</button>
+      </form>
+    </section>
+  </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>お支払い画面</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="design.css">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body>
+    <div class="bg-primary ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="text-light d-inline-flex m-2 m-md-3">お支払い画面</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary pt-2 pt-md-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center mb-3 mb-md-2 mt-1 mt-md-3">在宅英語コーチ体験セミナー&nbsp;<br>下記よりお申し込みください</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-0 bg-secondary"
+        style="background-position: center center, center center; background-size: cover, cover; background-repeat: repeat, repeat;">
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto col-md-10 p-md-3 p-0"
+                    style="background-image: url(&quot;mov_bg.jpeg&quot;); background-position: left top; background-size: 100%; background-repeat: no-repeat;">
+
+                    <form action="https://s-par.com/ecoach/stripe/create-checkout-session.php" method="POST">
+                        <input type="hidden" name="priceId" value="price_1JQr09KYX60QpOfLMoOIPr8h" />
+                        <button class="stripe-payment-btn" type="submit"><i class="fa fa-cc-stripe" aria-hidden="true"><span>&nbsp;&nbsp;Subscribe</span></i></button>
+                    </form>
+                    </section>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center mt-3"><br></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="py-3">
+        <div class="container" style="text-align: center;">
+            Copyright © 2021 All Rights Reserved.
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
